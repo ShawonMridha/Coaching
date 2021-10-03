@@ -1,0 +1,27 @@
+[
+    {
+        "id":"a512",
+        "service":"PSC Course",
+        "tk":"5000",
+        "img":"https://thumbs.dreamstime.com/b/kids-education-child-boy-study-school-thinking-bubble-dreaming-over-black-chalkboard-75214276.jpg"
+    },
+    {
+        "id":"z660",
+        "service":"SSC Course",
+        "tk":"8000",
+        "img":"https://lh3.googleusercontent.com/fQZ2un1lopDeO_PruEF-Idr_LIjIPc0VZSoRuqho9jWTk__jb14eetWKL4v5UtUY8G7vcNxu5b5ObQ6l9L5qp5sGQrpcQ9jTmipJHg=w1440-v1"
+    },
+    {
+        "id":"W780",
+        "service":"HSC Course",
+        "tk":"15000",
+        "img":"https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/education4-650.jpeg?yKJu.SPOTMSwskwJTSiPGSPSit7gMJmt"
+    },
+    {
+        "id":"P987",
+        "service":"UNIVERSITY Course",
+        "tk":"25000",
+        "img":"https://www.investopedia.com/thmb/5pwp2ttGarfqygRC3gfAueMxPZ0=/2120x1414/filters:fill(auto,1)/world-philosophy-day-education-concept-with-tree-of-knowledge-planting-on-opening-old-big-book-1059422276-47f095a519b64b70b61590b065d8d1bd.jpg"
+    }
+    
+]
