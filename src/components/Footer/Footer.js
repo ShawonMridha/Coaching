@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="footer-color">
             <Row>
             <Col xs={4}>
-                <h2 className="color">Social Links</h2>
+                <h4 className="color">Social Links</h4>
             <div className="icon">
                <div className="flex">
                 <FontAwesomeIcon  icon ={faInstagramSquare} />
@@ -28,15 +28,16 @@ const Footer = () => {
                   </div>  
             </Col>
             <Col xs={4}>
-            <h2 className="color">Helpful Links</h2>
+            <h4 className="color">Helpful Links</h4>
             <p>Service</p>
             <p>Supports</p>
             <p>Term & condition</p>
             </Col>
             <Col xs={4}>
-            <h2 className="color">Address</h2>
+            <h4 className="color">Address</h4>
             <p>127,Dhanmondi</p>
             <p>phone: 349583458</p>
+            <p>Email: shawon567@gmail.com</p>
             <p>Bangladesh</p>
             </Col>
             </Row>

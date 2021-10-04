@@ -9,7 +9,7 @@ const Seba = (props) => {
        <Card>
          {/* <Card.Img  className="small" variant="top" src={img}  /> */}
          <Image className="small" src={img} fluid />
-         <Card.Body>
+         <Card.Body className="card-bg">
            <Card.Title>{service}</Card.Title>
            <h4>Course Price:{tk}</h4>
            <Card.Text>

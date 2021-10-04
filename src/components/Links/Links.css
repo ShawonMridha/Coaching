@@ -1,13 +1,19 @@
 .space{
  background-color: black;
+ height: 45px;
+ text-align: center;
+ padding-top: 8px;
+ 
 }
 
 .space NavLink{
     margin-right: 30px;
-}
+   }
 .leftspace{
     margin-right: 40px;
-}
+    color: white;
+    padding: 15px;
+    }
 
 /* display: flex;
  justify-content: end; */

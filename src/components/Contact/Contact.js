@@ -12,6 +12,8 @@ const Contact = () => {
            <Row>
                <Col xs={6}>
                  <h3>Upcoming Events: </h3>
+                 <h5>1. Free class for Three days.</h5>
+                 <h5>2. Course Fee 50% Discount.</h5>
                </Col>
                <Col xs={6}>
                <img className="size" src={event} alt="" />

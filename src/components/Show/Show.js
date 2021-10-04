@@ -9,10 +9,10 @@ const Show = (props) => {
       <Card>
         {/* <Card.Img  className="small" variant="top" src={img}  /> */}
         <Image className="small" src={img} fluid />
-        <Card.Body>
+        <Card.Body className="background-color">
           <Card.Title>{service}</Card.Title>
           <Card.Text>
-            {tk}
+           <h3>Tk:  {tk}</h3>
           </Card.Text>
         </Card.Body>
       </Card>
