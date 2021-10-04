@@ -5,6 +5,19 @@ import school from '../images/school.jpg'
 const About = () => {
     return (
         <div>
+         <div className="about-design">
+         <h2>About/Contact US</h2>
+          <p>Meet the People Behind shawon.org</p>
+         </div>
+         <div>
+           <h3>About US</h3>
+           <p>We’re a small team who are all sharing mutual passion for learning education</p>
+           <p>We’re all working remotely and enjoying it since 2013</p>
+         </div>
+         <div>
+           <h3>OUR MISSION</h3>
+           <p>Alwys, we try to give good lession and every student become her goal</p>
+         </div>
           <Container>
           <Row>
             <Col xs={6}>

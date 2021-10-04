@@ -10,6 +10,7 @@ import About from './components/About/About';
 import Service from './components/Service/Service';
 import NotFound from './components/NotFound/NotFound';
 import Seba from './components/Seba/Seba';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
          </Route>
          <Route path="/showservice">
            <Seba></Seba>
+         </Route>
+         <Route path="/contact">
+          <Contact></Contact>
          </Route>
          <Route path="*">
            <NotFound></NotFound>

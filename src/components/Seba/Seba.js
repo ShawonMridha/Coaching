@@ -1,37 +1,23 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Card, Col, Container, Image, Row } from 'react-bootstrap';
 import './Seba.css'
 
 const Seba = (props) => {
-    const{service, description,img}=props.data;
+    const{service, description,img,tk}=props.data;
     return (
-       <div className="service">
-          <Container className="border">
-          <Row className="margin">
-           <Col xs={6}>
-             <h3>{service}</h3>
-             <p>{description}</p>
-            </Col>
-           <Col xs={6}>
-              <img className="small" src={img} alt="" />
-           </Col>
-           </Row>
-          </Container>
-
-          
-          <Container className="border">
-          <Row className="margin">
-           <Col xs={6}>
-           <img className="small" src={img} alt="" />
-             
-            </Col>
-           <Col xs={6}>
-           <h3>{service}</h3>
-             <p>{description}</p>
-           </Col>
-           </Row>
-          </Container>
-       </div>
+         <Col>
+       <Card>
+         {/* <Card.Img  className="small" variant="top" src={img}  /> */}
+         <Image className="small" src={img} fluid />
+         <Card.Body>
+           <Card.Title>{service}</Card.Title>
+           <h4>Course Price:{tk}</h4>
+           <Card.Text>
+             {description}
+           </Card.Text>
+         </Card.Body>
+       </Card>
+     </Col>
        
     );
 };

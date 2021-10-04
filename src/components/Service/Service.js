@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import Seba from '../Seba/Seba';
 
 const Service = () => {
@@ -11,12 +11,13 @@ const Service = () => {
     },[])
     return (
         <div>
-             <Row>
+           <Container>
+           <Row xs={1} md={3} className="g-4">
              {
                 services.map(service=> <Seba data={service}></Seba>)
             }
             </Row>
-            
+          </Container> 
         </div>
     );
 };
