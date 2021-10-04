@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import Service from './components/Service/Service';
 import NotFound from './components/NotFound/NotFound';
+import Seba from './components/Seba/Seba';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
          </Route>
          <Route path="/show">
            <Show></Show>
+         </Route>
+         <Route path="/showservice">
+           <Seba></Seba>
          </Route>
          <Route path="*">
            <NotFound></NotFound>

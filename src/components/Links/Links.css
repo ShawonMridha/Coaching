@@ -1,7 +1,5 @@
 .space{
  background-color: black;
- display: flex;
- justify-content: end;
 }
 
 .space NavLink{
@@ -10,3 +8,6 @@
 .leftspace{
     margin-right: 40px;
 }
+
+/* display: flex;
+ justify-content: end; */

@@ -12,7 +12,6 @@ const Home = () => {
     },[]);
     return (
         <div>
-             <h3>hello:{cards.length}</h3>
          <Container>
          <Row xs={1} md={3} className="g-4">
          {
