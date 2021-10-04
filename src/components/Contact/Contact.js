@@ -7,19 +7,25 @@ import './Contact.css'
 const Contact = () => {
     return (
         <div>
-            <h4>This is Contact</h4>
-           <div>
+          <Container>
+          <div>
            <Row>
                <Col xs={6}>
-                 <h3>Upcoming Events: </h3>
+                 <div className="align">
+                 <h3 className="events-color">Upcoming Events: </h3>
                  <h5>1. Free class for Three days.</h5>
                  <h5>2. Course Fee 50% Discount.</h5>
+                 <h5>3. Quiz exam for free book</h5>
+                 <h5>4. Library fee free</h5>
+                 <h5>5. Special English corurse 80% discount </h5>
+                 </div>
                </Col>
                <Col xs={6}>
                <img className="size" src={event} alt="" />
                </Col>
            </Row>
            </div>
+          </Container>
          <Container>
          <Form>
   <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
@@ -54,7 +60,7 @@ const Contact = () => {
 
   <Form.Group as={Row} className="mb-3">
     <Col sm={{ span: 10, offset: 2 }}>
-      <Button type="submit">Sign in</Button>
+      <Button className="primary" type="submit">Sign in</Button>
     </Col>
   </Form.Group>
 </Form>

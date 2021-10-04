@@ -5,7 +5,8 @@ import './Show.css'
 const Show = (props) => {
     const{img, service, tk}=props.cards
     return (
-        <Col>
+      <div>
+          <Col>
       <Card>
         {/* <Card.Img  className="small" variant="top" src={img}  /> */}
         <Image className="small" src={img} fluid />
@@ -17,6 +18,7 @@ const Show = (props) => {
         </Card.Body>
       </Card>
     </Col>
+      </div>
     );
 };
 

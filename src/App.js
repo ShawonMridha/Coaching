@@ -2,7 +2,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Home from './components/Home/Home'
-import Data from './components/Data/Data';
 import Show from './components/Show/Show';
 import Links from './components/Links/Links';
 import Footer from './components/Footer/Footer';

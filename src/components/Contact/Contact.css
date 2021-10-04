@@ -3,3 +3,14 @@
     width: 600px;
     margin-top: 50px;
 }
+.events-color{
+    color: #0652DD;
+}
+.align{
+    margin-top: 200px;
+    text-align: justify;
+}
+.primary{
+    background-color: #0652DD;
+    color: white;
+}
