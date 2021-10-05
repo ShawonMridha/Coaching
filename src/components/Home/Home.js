@@ -1,6 +1,5 @@
-import React, { useEffect } from 'react';
+import React, { useEffect ,useState} from 'react';
 import { Container, Row } from 'react-bootstrap';
-import { useState } from 'react/cjs/react.development';
 import Show from '../Show/Show';
 
 const Home = () => {

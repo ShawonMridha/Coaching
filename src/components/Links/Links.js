@@ -12,7 +12,7 @@ const Links = () => {
             <NavLink className="leftspace" activeStyle={activeStyle} to="/home">Home</NavLink>
             <NavLink className="leftspace" activeStyle={activeStyle} to="/about">About Us</NavLink>
             <NavLink className="leftspace" activeStyle={activeStyle} to="/service">Service</NavLink>
-            <NavLink className="leftspace" activeStyle={activeStyle} to="/contact">Sign In</NavLink>
+            <NavLink className="leftspace" activeStyle={activeStyle} to="/signin">Sign In</NavLink>
         </div>
     );
 };

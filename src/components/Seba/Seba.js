@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Container, Image, Row } from 'react-bootstrap';
+import { Card, Col, Image } from 'react-bootstrap';
 import './Seba.css'
 
 const Seba = (props) => {
@@ -7,7 +7,6 @@ const Seba = (props) => {
     return (
          <Col>
        <Card>
-         {/* <Card.Img  className="small" variant="top" src={img}  /> */}
          <Image className="small" src={img} fluid />
          <Card.Body className="card-bg">
            <Card.Title>{service}</Card.Title>

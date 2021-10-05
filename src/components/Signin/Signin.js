@@ -1,13 +1,13 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Col, Container, Form, Row } from 'react-bootstrap';
-import event from '../images/events.jpg';
-import './Contact.css'
+import event from '../images/events.jpg'
+import './Signin.css'
 
-const Contact = () => {
+const Signin = () => {
     return (
         <div>
-          <Container>
+             <Container>
           <div>
            <Row>
                <Col xs={6}>
@@ -69,4 +69,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default Signin;
